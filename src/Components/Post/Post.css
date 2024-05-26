@@ -1,0 +1,38 @@
+.form-container{
+    margin-top: 40px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.post-form{
+    width: 400px;
+    background-color: #6f2df4;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.6;
+}
+
+.post-form :first-child{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.post-form input{
+    width: 100%;
+    padding: 13px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 13px;
+}
+
+.post-form  button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}

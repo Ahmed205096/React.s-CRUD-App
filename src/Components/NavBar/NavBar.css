@@ -1,0 +1,25 @@
+.nav-conatainer{
+    background-color: #6f2df4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#logo{
+    cursor: pointer;
+    color: white;
+}
+
+.nav-links{
+    width: 260px;
+    display: flex;
+    justify-content: space-around;
+}
+

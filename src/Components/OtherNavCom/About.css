@@ -1,0 +1,16 @@
+.about-title{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conainer :first-child{
+    text-align: center;
+}
+
+.conainer :last-child{
+    text-align: justify;
+    padding: 20px;
+}

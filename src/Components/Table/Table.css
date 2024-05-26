@@ -1,0 +1,57 @@
+.table {
+  display: flex;
+  align-items: first baseline;
+  justify-content: center;
+  margin-top: 90px;
+  color: white;
+  width: 100%;
+}
+
+.table table {
+  width: 80%;
+}
+
+.table table th {
+  background-color: #6f2df4;
+  color: white;
+}
+
+table tbody tr {
+  height: 30px;
+}
+
+.table table td {
+  background-color: #212529;
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  background-color: #6f2df4;
+  color: white;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80px;
+}
+
+.view {
+  background-color: darkblue;
+}
+
+.edit {
+  background-color: green;
+  margin-left: 3px;
+}
+
+.delete {
+  background-color: rgb(211, 41, 41);
+  margin-left: 3px;
+}
+
+.btn:hover {
+  background-color: #f2f2f2;
+  color: black;
+}
+
